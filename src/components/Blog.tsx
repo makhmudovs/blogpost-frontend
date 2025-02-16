@@ -42,7 +42,7 @@ const Blog: React.FC<BlogProps> = ({ blog, updateLike, deleteBlog }) => {
           {expanded ? "Hide" : "Details"}
         </button>
       </div>
-      <div className={expanded ? "" : "hidden"}>
+      <div data-testid="details-parent" className={expanded ? "" : "hidden"}>
         <p className="text-lg font-light text-gray-900 dark:text-white">
           Title: <span className="font-bold">{blog.title}</span>
         </p>
