@@ -39,6 +39,7 @@ const BlogForm: React.FC<BlogProps> = ({ handleNewBlog }) => {
             Title
           </label>
           <input
+            placeholder="Blog Title"
             type="text"
             id="title"
             name="title"
@@ -56,6 +57,7 @@ const BlogForm: React.FC<BlogProps> = ({ handleNewBlog }) => {
             Author
           </label>
           <input
+            placeholder="Blog Author"
             type="text"
             id="author"
             name="author"
@@ -73,6 +75,7 @@ const BlogForm: React.FC<BlogProps> = ({ handleNewBlog }) => {
             Url
           </label>
           <input
+            placeholder="Blog URL"
             type="text"
             id="url"
             name="url"
@@ -90,6 +93,7 @@ const BlogForm: React.FC<BlogProps> = ({ handleNewBlog }) => {
             Likes
           </label>
           <input
+            placeholder="0"
             type="number"
             id="likes"
             name="likes"
